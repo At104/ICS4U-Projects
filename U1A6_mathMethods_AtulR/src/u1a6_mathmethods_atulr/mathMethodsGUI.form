@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="InputLabelText" pref="96" max="32767" attributes="0"/>
+                  <Component id="ExampleInput" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="InputNumberField" min="-2" pref="114" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Exit" min="-2" max="-2" attributes="0"/>
+                  <Component id="Calculate" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="MinLabel" max="32767" attributes="0"/>
+                          <Component id="MinOutput" min="-2" pref="152" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="367" pref="402" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="SineOutput" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="361" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="SineLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PerimeterLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="PerimeterOutput" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="RoundMultiplyOutput" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="MaxLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="PowerLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="PowerOutput" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="MaxOutput" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="RoundMultiplyLabel" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="Title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="InputLabelText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="InputNumberField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Calculate" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ExampleInput" min="-2" max="-2" attributes="0"/>
+                  <Component id="Exit" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MinOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MaxOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PowerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SineOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PowerOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PerimeterLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RoundMultiplyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PerimeterOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RoundMultiplyOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="53" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Title">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Math Methods"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="InputLabelText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Input 2 Numbers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ExampleInput">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ex: &quot;1.1 2.3&quot;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputNumberField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InputNumberFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Calculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Exit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MinLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Smallest Number (Math.min)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MaxLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Biggest Number (Math.max)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MinOutput">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MinOutputActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MaxOutput">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MaxOutputActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SineLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Round Numbers (Math.round)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PowerLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Number to the Power of Second Number (Math.pow)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SineOutput">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SineOutputActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PowerOutput">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PowerOutputActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PerimeterLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Find Perimeter of a Right Triangle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RoundMultiplyLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Round Numbers, then multiply"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PerimeterOutput">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PerimeterOutputActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="RoundMultiplyOutput">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RoundMultiplyOutputActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
